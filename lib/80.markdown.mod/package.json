@@ -1,0 +1,6 @@
+{
+  "name":"markdown.mod",
+  "version":"0.0.0",
+  "description":"render markdown files",
+  "main":"markdown.js"
+}
