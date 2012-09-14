@@ -1,0 +1,44 @@
+{
+  "debug":true,
+  "serverName":"durchblicker",
+  "https":{
+    "port":8090
+  },
+  "views":{
+    "engine":"pistachio",
+    "path":"templates",
+    "cache":false
+  },
+  "database":{
+    "name":"db",
+    "host":"127.0.01",
+    "port":27017
+  },
+  "proxy": {
+    "/artikel*": {
+      "requestHeaders": {
+        "Host": "durchblicker.at",
+        "Origin": "https://durchblicker.at",
+        "Referer": {
+          "^https?://[^/]+/": "https://durchblicker.at/"
+        }
+      },
+      "responseFilter": {
+        "https?:\/\/durchblicker.at/": "/"
+      },
+      "ssl": false,
+      "host": "wordpress.durchblicker.at",
+      "port": 2020
+    }
+  },
+  "api":{
+    "modules":"lib/api"
+  },
+  "static":{
+    "root":"static"
+  },
+  "errors":{
+    "404":"Ooooops! The Page you were looking for is not there",
+    "500":"Ooooops! We made a blunder. Please try again later"
+  }
+}

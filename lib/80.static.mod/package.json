@@ -1,0 +1,6 @@
+{
+  "name":"static.mod",
+  "version":"0.0.0",
+  "description":"Static File Serving",
+  "main":"static.js"
+}

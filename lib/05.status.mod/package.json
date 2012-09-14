@@ -1,0 +1,6 @@
+{
+  "name":"status.mod",
+  "version":"0.0.0",
+  "description":"collects server status information and stores it in app.get('status')",
+  "main":"status.js"
+}

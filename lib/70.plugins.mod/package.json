@@ -1,0 +1,6 @@
+{
+  "name":"plugins.mod",
+  "version":"0.0.0",
+  "description":"load custom handler plugins",
+  "main":"plugins.js"
+}

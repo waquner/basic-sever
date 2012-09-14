@@ -1,0 +1,6 @@
+{
+  "name":"cache.mod",
+  "version":"0.0.0",
+  "description":"MemcacheD Caching of Results",
+  "main":"cache.js"
+}

@@ -1,0 +1,6 @@
+{
+  "name":"pages.mod",
+  "version":"0.0.0",
+  "description":"render pages from static JSON files",
+  "main":"pages.js"
+}

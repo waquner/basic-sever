@@ -1,0 +1,6 @@
+{
+  "name":"mongodb.mod",
+  "version":"0.0.0",
+  "description":"provide a simple mongo in app.get('database')",
+  "main":"mongo.js"
+}

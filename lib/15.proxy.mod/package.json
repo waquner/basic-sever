@@ -1,0 +1,9 @@
+{
+  "name":"proxy.mod",
+  "version":"0.1.0",
+  "description":"HTTP Proxy",
+  "main":"proxy.js",
+  "dependencies":{
+    "http-proxy":"*"
+  }
+}

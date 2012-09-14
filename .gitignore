@@ -1,0 +1,5 @@
+lib/api
+lib/plugins
+node_modules
+static
+templates

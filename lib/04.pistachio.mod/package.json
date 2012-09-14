@@ -1,0 +1,6 @@
+{
+  "name":"pistachio.mod",
+  "version":"0.0.0",
+  "description":"Enable Pistachio Rendering",
+  "main":"pistachio.js"
+}

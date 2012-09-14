@@ -1,0 +1,6 @@
+{
+  "name":"errors.mod",
+  "version":"0.0.0",
+  "description":"Render Error Pages",
+  "main":"errors.js"
+}

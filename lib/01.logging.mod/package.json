@@ -1,0 +1,6 @@
+{
+  "name":"logging.mod",
+  "version":"0.0.0",
+  "description":"logging everything to mongo. provides app.log()",
+  "main":"logging.js"
+}

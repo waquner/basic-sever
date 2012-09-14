@@ -1,0 +1,6 @@
+{
+  "name":"domain.mod",
+  "version":"0.0.0",
+  "description":"Error-Domain per Request",
+  "main":"domain.js"
+}
