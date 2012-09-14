@@ -6,6 +6,7 @@ var path = require('path');
 var config = require('./lib/config.js')(process.argv[2] || (__dirname+'/config.json'));
 var load = require('loadexten');
 var seic = require('seic');
+var ensure = require('ensure-https');
 
 config('https.options.ca', config('https.options.ca') || path.join(__dirname,'ssl','ca.crt'));
 config('https.options.key', config('https.options.key') || path.join(__dirname,'ssl','server.key'));
@@ -44,7 +45,7 @@ function worker(err, app) {
   if (http) {
     http = ('object' === typeof http) ? http : {};
     http.sslHost=config('https.port') || 443;
-    require('ensure-https').createServer(http).listen(config('http.port') || 80, config('http.address'));
+    ensure.createServer(http).listen(config('http.port') || 80, config('http.address'));
   }
   console.log('Worker Process Started');
 }
