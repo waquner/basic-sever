@@ -4,9 +4,6 @@
   "description":"a full featured express based server that can function as a good base for your Node/Express based web-project",
   "main":"app.js",
   "author":{ "name":"Philipp Dunkel", "email":"phidelta@phideltacity.net" },
-  "bin":{
-    "pistachio":"./compile.js"
-  },
   "dependencies":{
     "seic":"*",
     "async":"*",
@@ -19,5 +16,5 @@
   "repository":{
     "type":"git",
     "url":"https://github.com/phidelta/basic-server.git"
-  },
+  }
 }
