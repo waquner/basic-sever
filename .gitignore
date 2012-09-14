@@ -3,3 +3,4 @@ lib/plugins
 node_modules
 static
 templates
+lib/utils

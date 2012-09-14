@@ -1,0 +1,6 @@
+{
+  "name":"utilities.mod",
+  "version":"0.0.0",
+  "description":"load utility plugins that should register early",
+  "main":"utilities.js"
+}
