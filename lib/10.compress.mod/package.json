@@ -1,0 +1,6 @@
+{
+  "name":"compress.mod",
+  "version":"0.0.0",
+  "description":"text content-compression",
+  "main":"compress.js"
+}
