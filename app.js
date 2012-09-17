@@ -34,8 +34,8 @@ if (config('debug')) {
 
 function worker(err, app) {
   if (config('debug')) app.set('release','debug');
-  console.log('Starting Worker', err);
-  if (err) return;
+  console.log('Starting Worker');
+  if (err) return console.error(err.stack);
   app.set('config', config);
   //app.use(app.router);
   load(__dirname+'/lib', '.mod', app);
